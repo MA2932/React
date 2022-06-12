@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box
+}
+.logo{
+    height: 50px;
+    padding: 10px 25px;
+
+}
+
+#headerId{
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+    
+}
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+#logot{
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#headerId2{
+    padding-top: 20px
+}
+#txtId{
+    padding-left: 20px;
+}
+
+#txtId > h1 {
+    margin-bottom: 5px;
+    white-space: nowrap
+}
+#txtId > p {
+    max-width: 300px;
+    margin-top:0px;
+    white-space: nowrap;
+    
+}
+
+.cardContainer{
+    width: 175px;
+    flex: 0 0 auto;
+    position: relative;       
+    
+}
+.cardSection{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    overflow-x: auto;
+    margin-left: 20px;
+    
+}
+.cardImage{
+    width: 100%;
+    border-radius: 12px;
+}
+.cardStar{
+    height: 14px;
+}
+.cardStatus{
+    display: flex;
+    font-size: 14px;
+}
+.gray{
+    color: gray;
+}
+
+.cardContainer > p {
+    font-size: 15px;
+    padding: 0px 
+}
+.bdge{
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    font-weight: 600;
+    font-size: 14px;
+    background-color: white;
+    border-radius: 10px;
+    padding:4px;
+}

@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+.innerbox {
+    
+    height: 100px;
+    width: 100px;
+    border: 2px solid ;
+    border-radius: 12px;
+    cursor: pointer;
+   
+}
+.grid{
+    display:grid;
+    grid-template: 100px 100px  / 100px 100px 100px;
+    
+    gap:5px; 
+    justify-content: center;
+}
